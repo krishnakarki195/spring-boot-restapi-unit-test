@@ -11,7 +11,7 @@ MockMVC
 # Run
 mvn clean test spring-boot:run
 
-## Integration test with cURL
+# Integration test with cURL
 # Create a new stock
 
 curl -H "Content-Type: application/json" -X POST -d '{"name":"Stock 1","price":"1"}' http://localhost:8080/api/v1/stocks
