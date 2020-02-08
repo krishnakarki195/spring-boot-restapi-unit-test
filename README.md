@@ -1,35 +1,4 @@
 # spring-boot-restapi-unit-test
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── restapi
-│   │   │           └── krishna
-│   │   │               |-- controller
-│   │   │               |   ├── StockAPI.java
-│   │   │               |   ├── StockController.java
-|   |   |               |-- model
-│   │   │               |   ├── Stock.java
-|   |   |               |-- service
-│   │   │               |   ├── StockService.java
-|   |   |               |-- repository
-│   │   │               |   ├── StockRepository.java
-|   |   |               |-- SprinfBootApplicationUnitTestingApplication.java
-|   |   |               
-│   │   └── resources
-│   │       ├── static
-│   │       ├── templates
-│   │       └── application.properties
-│   └── test
-│       └── java
-│           └── com
-│               └── restapi
-│                   └── krishna
-│                   |   └── restapi
-│                   |     └── StockAPITest.java
-|                   |-- SpringBootRestApiAndUnitTestingApplicationTests.java
-└── pom.xml
-
 # What you'll need
 JDK 8+ or OpenJDK 8+
 Maven 3+
